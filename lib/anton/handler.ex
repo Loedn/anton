@@ -1,5 +1,8 @@
 defmodule Anton.Handler do
   def handle(request) do
+    conv = parse(request)
+    conv = route(conv)
+    format_response(conv)
   end
 
   def parse(request) do
