@@ -5,4 +5,4 @@ defmodule Anton do
   end
 end
 
-IO.puts Anton.hello("elixir")
+# IO.puts Anton.hello("elixir")
